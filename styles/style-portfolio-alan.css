@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    color: white;
+    background-color: #555;
+}
+
+header {
+    background: #171810;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.navegacao {
+    display: flex;
+    align-items: center;
+    gap: 62px;
+    list-style: none;
+    margin: 0;
+}
+
+.navegacao li a {
+    color: white;
+    text-decoration: none;
+}
+
+.portfolio-perfil {
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px
+}
+
+.perfil-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 1040px;
+}
+
+.perfil-topo-desc {
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+    align-self: stretch;
+}
+
+.perfil-topo-desc-infos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+    width: 200px;
+    text-align: right;
+}
+
+.perfil-infos {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 1040px;
+}
+
+.perfil-infos-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: black;
+    padding: 20px;
+    height: 175px;
+    width: 320px;
+    border-radius: 10px;
+    background-color: #77D9AA;
+}
+
+.interesses {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px;
+}
+
+.interesses h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.interesses-cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.interesses-cards-infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    height: 175px;
+}
+
+.idiomas-cards {
+    display: flex;
+    font-weight: bold;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: #222;
+    border-radius: 20px;
+    width: 500px;
+}
+
+.educacao-img {
+    width: 1200px;
+}
+
+.educacao-imgflex {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+
+footer {
+    display: flex;
+    width: 100%;
+    padding: 40px 50px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border-top: 1px solid #9D9D9D;
+    background: #171810;
+}
+
+.footer-infos {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer-slogan {
+    height: 100%;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-newsletter {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-newsletter input {
+    width: 200px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: black;
+}
+
+.footer-newsletter button {
+    width: 150px;
+    height: 45px;
+    padding: 10px 20px;
+    background: #77D9AA;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+}
+
+.footer-direitos {
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-top: 1px solid #D9D9D9;
+    justify-content: center
+}
